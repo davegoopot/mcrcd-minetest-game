@@ -4,5 +4,6 @@ RUN apt-get update
 RUN apt-get install -y apt-utils
 RUN apt-get install -y minetest-server
 RUN mkdir /minetest
+RUN mkdir --parents /root/.minetest/games
 WORKDIR /minetest
-CMD /usr/games/minetestserver --world ./world --logfile ./debug.txt --config ./minetest.conf --info
+CMD /usr/games/minetestserver --world ./world   --gameid mcr_coderdojo --logfile ./debug.txt --config ./minetest.conf --info
