@@ -1,3 +1,18 @@
+***************************************
+*** MANCHESTER CODERDOJO MODIFICATIONS
+***************************************
+
+The luacontroller init.lua file has been modified for the Manchester CoderDojo.  The modifications allow more functions to be called from within the luacontroller block.
+
+Note that exposing these functions does allow users to call code that could crash your server or potentially expose data from elsewhere on your machine. Use with care at your own risk.
+
+
+
+Original readme...
+
+
+----------------------------------------------------------------------------------
+
     ########################################################################
     ##  __    __   _____   _____   _____   _____   _____   _   _   _____  ##
     ## |  \  /  | |  ___| |  ___| |  ___| |  ___| |  _  | | \ | | |  ___| ##
