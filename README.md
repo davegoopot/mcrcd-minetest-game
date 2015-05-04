@@ -15,6 +15,7 @@ The game comprises:
 * The default minetest_game mods
 * Mescons
 * Digilines
+* WorldEdit
 
 The mescons/luacontroller code has been slightly modified to allow more API functionality to be used in the game USE WITH CARE!
 
@@ -27,8 +28,6 @@ To build a zip file containing the game files run the package.bash script (linux
 Testing
 -------
 
-A Vagrant/Docker config is provided for testing purposes.  If you have Vagrant installed and run:
 
-vagrant up --provider=docker
+TODO: THE PREVIOUS VAGRANT SETUP SEEMS TO HAVE STOPPED WORKING.  MANUAL TESTING FOR NOW.
 
-...then you will end up with a running docker container with a minetest server running on port 30000 with a new world created with the current game installed.
